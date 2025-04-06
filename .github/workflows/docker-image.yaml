@@ -27,7 +27,7 @@ jobs:
       with:
         contest: .
         push: true
-        tags: moro1616/my-node-app:test
+        tags: moro1616/my-node-app:latest
 
     - name: Logout from Docker Hub
       run: docker logout
